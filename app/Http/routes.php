@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return "hello world";
 });
+Route::get('hi', function () {
+    return "Hi";
+});
 
 Route::get('isvaliduser',  'UserController@isValid');
 Route::get('/getUserData/', 'UserController@getUserData');
