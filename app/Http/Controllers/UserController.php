@@ -26,9 +26,8 @@ class UserController extends Controller
         $pwd=$request->get('pwd');
         // $user=0;
         $users = DB::table('users')->where('id', '=', $enumber)->where('pwd', '=' ,$pwd)->count();
-        if ($users=1) {
+        if ($users==1) {
             return 'true';
-            # code...
         }
         return 'false';
 

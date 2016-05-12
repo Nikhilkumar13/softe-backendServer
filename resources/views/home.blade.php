@@ -63,6 +63,22 @@ table, th, td {
 </tr>
     
 </table>
+<p>Return Values: JSON object Array Containg Company's Id</p>
+<br>
+<h2>Company Detail:</h2>
+<p>URL: http://52.38.240.185/getcompanydetail</p>
+<table>
+<th>Parameter Name</th>
+<th>Parameter Detail</th>
+<tr>
+    
+    <td>cid</td>
+    <td>integer</td>
+
+</tr>
+<p>Return Value : JSON object Array Containg Details about Company</p>
+    
+</table>
 
 </body>
 </html>

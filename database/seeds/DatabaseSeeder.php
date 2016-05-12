@@ -93,7 +93,7 @@ class DatabaseSeeder extends Seeder
                 'category'=>'Deadline',
                 'description'=>'This is Company Deadline Event Intrested People can Apply',
                 'venue'=>'',
-                'time'=>"")
+                'time'=>"2016-5-12 06:39:05")
             ));
     }
 }
