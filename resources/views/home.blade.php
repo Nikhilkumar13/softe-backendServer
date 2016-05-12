@@ -34,8 +34,8 @@ table, th, td {
 <h2> User Data :</h2>
 <p> URL : http://52.38.240.185/getuserdata </p>
 <table>
-    <th>Paramater Name</th>
-    <th>Paramater Type</th>
+    <th>Parameter Name</th>
+    <th>Parameter Type</th>
     <tr>
         <td>enumber</td>
         <td>string , small letters</td>
@@ -48,6 +48,21 @@ table, th, td {
 <h2>Company List:</h2>
 <p>URL: http://52.38.240.185/getcompanylist</p>
 <p>Return Values: JSON object Array Containg Data for example :-[{"id":1,"name":"Google"},{"id":2,"name":"Facebook"},{"id":4,"name":"LinkedIn"},{"id":5,"name":"Microsoft"}]</p>
+<br>
+
+<h2> User Applications </h2>
+<p> URL: http://52.38.240.185/getuserapplication</p>
+<table>
+<th>Parameter Name</th>
+<th>Parameter Detail</th>
+<tr>
+    
+    <td>enumber</td>
+    <td>string , small letters</td>
+
+</tr>
+    
+</table>
 
 </body>
 </html>

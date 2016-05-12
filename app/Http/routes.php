@@ -20,7 +20,7 @@ Route::get('hi', function () {
 
 Route::get('isvaliduser',  'UserController@isValid');
 Route::get('getuserdata', 'UserController@getUserData');
-Route::get('/getUserApplication','UserController@getUserApplication');
+Route::get('getuserapplication','UserController@getUserApplication');
 
 Route::get('/getcompanylist','CompanyController@getCompanyList');
 

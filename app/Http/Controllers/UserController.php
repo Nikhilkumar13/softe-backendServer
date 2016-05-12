@@ -44,8 +44,9 @@ class UserController extends Controller
 
      public function getUserApplication(Request $request)
      {
-        $data=  (string) User::find($request->get('id'))->getUserApplication;
-        // $data=DB::table('users')->select('cid','department')->where('enumber','=',$enumber)->get();
+                $enumber=$request->get('enumber');
+
+         $data=DB::table('application')->select('cid')->where('enumber','=',$enumber)->get();
         return $data;
      }
 }
