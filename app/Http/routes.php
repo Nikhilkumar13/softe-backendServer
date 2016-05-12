@@ -24,6 +24,7 @@ Route::get('getuserapplication','UserController@getUserApplication');
 
 Route::get('getcompanylist','CompanyController@getCompanyList');
 Route::get('getcompanydetail','CompanyController@getCompanyDetail');
+Route::get('applytocompany','CompanyController@applyToCompany');
 
 
 /*

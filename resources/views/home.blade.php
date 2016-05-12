@@ -18,7 +18,7 @@ table, th, td {
 <p>Parameters: enumber, pwd</p>
 <table>
 <th>Parameter Name</th>
-<th>Parameter Type</th>
+<th>Parameter Detail</th>
     <tr>
     <td>enumber</td>
 
@@ -35,7 +35,7 @@ table, th, td {
 <p> URL : http://52.38.240.185/getuserdata </p>
 <table>
     <th>Parameter Name</th>
-    <th>Parameter Type</th>
+    <th>Parameter Detail</th>
     <tr>
         <td>enumber</td>
         <td>string , small letters</td>
@@ -67,16 +67,31 @@ table, th, td {
 <br>
 <h2>Company Detail:</h2>
 <p>URL: http://52.38.240.185/getcompanydetail</p>
-<table>
+<tr>
 <th>Parameter Name</th>
 <th>Parameter Detail</th>
+</tr>
 <tr>
     
     <td>cid</td>
     <td>integer</td>
 
 </tr>
+<table>
 <p>Return Value : JSON object Array Containg Details about Company</p>
+<br>
+<h2>Apply to Company:</h2>
+<p>URL:http://52.38.240.185/applytocompany</p>
+<table>
+<th>Parameter Name</th>
+    <th>Parameter Detail</th>
+
+        <tr>    <td>cid</td>
+    <td>integer,company id</td>
+    </tr>
+    <tr><td>enummber</td>
+    <td>string , entry number</td></tr>
+</table>
     
 </table>
 

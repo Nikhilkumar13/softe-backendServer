@@ -25,4 +25,12 @@ class CompanyController extends Controller
     	$data=DB::table('company')->select('*')->where('id','=',$id)->get();
     	return $data;
     }
+
+    public function applyToCompany(Request $request)
+    {
+    	$cid=$request->get('cid');
+    	$enumber=$request->get('enumber');
+    	$data=DB::table('application')->insert(['cid'=>$cid,'enumber'=> $enumber]);
+    	return (string )$data;
+    }
 }
