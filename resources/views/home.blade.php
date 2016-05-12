@@ -13,7 +13,7 @@ table, th, td {
 </head>
 <body>
 <h1 style="text-align: center;">Here is the list of api availaibe for use</h1>
-<h2>Login API:</h2>
+<h2>Login:</h2>
 <p>URL: http://52.38.240.185/isvaliduser</p>
 <p>Parameters: enumber, pwd</p>
 <table>
@@ -30,6 +30,20 @@ table, th, td {
     </tr>
 </table>
 <p>Return Values:  "true"  -> If Valid User Else "false"</p>
+<br>
+<h2> User Data :</h2>
+<p> URL : http://softe.app/getuserdata </p>
+<table>
+    <th>Paramater Name</th>
+    <th>Paramater Type</th>
+    <tr>
+        <td>enumber</td>
+        <td>string , small letters</td>
+    </tr>
+
+</table>
+<p>Return Values : JSON object Array Containg Data For example :- [{"name":"Nikhil","department":"Computer Science"}]</p>
+
 
 </body>
 </html>

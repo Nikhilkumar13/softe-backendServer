@@ -19,7 +19,7 @@ Route::get('hi', function () {
 });
 
 Route::get('isvaliduser',  'UserController@isValid');
-Route::get('/getUserData/', 'UserController@getUserData');
+Route::get('getuserdata', 'UserController@getUserData');
 Route::get('/getUserApplication','UserController@getUserApplication');
 
 

@@ -38,13 +38,13 @@ class UserController extends Controller
      public function getUserData(Request $request)
      {
         $enumber=$request->get('enumber');
-        $data=DB::table('users')->select('name','department')->where('enumber','=',$enumber)->get();
+        $data=DB::table('users')->select('name','department')->where('id','=',$enumber)->get();
         return $data;
      }
 
      public function getUserApplication(Request $request)
      {
-        $data=  (string) User::find($request->get('enumber'))->getUserApplication;
+        $data=  (string) User::find($request->get('id'))->getUserApplication;
         // $data=DB::table('users')->select('cid','department')->where('enumber','=',$enumber)->get();
         return $data;
      }
