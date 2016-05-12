@@ -22,7 +22,8 @@ Route::get('isvaliduser',  'UserController@isValid');
 Route::get('getuserdata', 'UserController@getUserData');
 Route::get('getuserapplication','UserController@getUserApplication');
 
-Route::get('/getcompanylist','CompanyController@getCompanyList');
+Route::get('getcompanylist','CompanyController@getCompanyList');
+Route::get('getcompanydetail','CompanyController@getCompanyDetail');
 
 
 /*

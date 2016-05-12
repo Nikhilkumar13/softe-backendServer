@@ -17,4 +17,12 @@ class CompanyController extends Controller
     	return $data;
 
     }
+
+    public function getCompanyDetail(Request $request)
+    {
+
+    	$id=$request->get('cid');
+    	$data=DB::table('company')->select('*')->where('id','=',$id)->get();
+    	return $data;
+    }
 }
