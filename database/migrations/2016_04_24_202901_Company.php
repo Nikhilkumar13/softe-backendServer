@@ -18,6 +18,7 @@ class Company extends Migration
             $table->string('name');
             $table->string('website');
             $table->string('jnf');
+            $table->integer('cg');
             // $table->timestamp('deadline');
            
             // $table->string('cvurl');

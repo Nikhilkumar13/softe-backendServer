@@ -39,25 +39,36 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Google',
                 'website' => 'www.google.com',
                 'jnf' => 'Some random String asdn as daksl dlkas dnkas ldas dlnkans dklasmd lsamd askmd ask dmas lkdmas ldkma sdaknsd alks dkasl dkals ndklas dlkas ndkla sdkas ndlkas ndklas ds end',
+                                'cg'=>6
+
                 ),
             array(
                 'name' => 'Facebook',
                 'website' => 'www.Facebook.com',
                 'jnf' => 'Some random String asdn as daksl dlkas dnkas ldas dlnkans dklasmd lsamd askmd ask dmas lkdmas ldkma sdaknsd alks dkasl dkals ndklas dlkas ndkla sdkas ndlkas ndklas ds end',
+                                'cg'=>7
+
                 ),
             array(
                 'name' => 'CredR',
                 'website' => 'www.CredR.com',
                 'jnf' => 'Some random String asdn as daksl dlkas dnkas ldas dlnkans dklasmd lsamd askmd ask dmas lkdmas ldkma sdaknsd alks dkasl dkals ndklas dlkas ndkla sdkas ndlkas ndklas ds end',
+                                'cg'=>5
+
+
                 ),
             array(
                 'name' => 'LinkedIn',
                 'website' => 'www.LinkedIn.com',
                 'jnf' => 'Some random String asdn as daksl dlkas dnkas ldas dlnkans dklasmd lsamd askmd ask dmas lkdmas ldkma sdaknsd alks dkasl dkals ndklas dlkas ndkla sdkas ndlkas ndklas ds end',
+                'cg'=>8
+
                 ),array(
                 'name' => 'Microsoft',
                 'website' => 'www.Microsoft.com',
                 'jnf' => 'Some random String asdn as daksl dlkas dnkas ldas dlnkans dklasmd lsamd askmd ask dmas lkdmas ldkma sdaknsd alks dkasl dkals ndklas dlkas ndkla sdkas ndlkas ndklas ds end',
+                                'cg'=>7
+
                 ),
 
                 ));
